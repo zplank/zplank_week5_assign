@@ -1,1 +1,5 @@
 # zplank_week5_assign
+
+The Colly framework allows the user to crawl and scrape all text found on a specified webpage and save the output in a common space (.jl file in this scenario). Often webpages will include information that many will not find relevant to their research, so by scraping and saving all text results, we are able to quickly scan the output file and focus on only what is of interest and avoiding information overload. 
+
+There are many options when it comes to crawling and scraping these webpages, but I found the Colly framework the most simple to use while also producing quality results. The Colly framework results in a much faster results than using Python Scrapy. The code in the wiki_scrape.go file provides results in about 11-12 seconds and I find it more compact compared to Python Scrapy. 
